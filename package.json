@@ -1,0 +1,38 @@
+{
+    "name": "high-contrast-dark-pro",
+    "displayName": "High Contrast Dark Pro",
+    "description": "A high-contrast dark mode that (hopefully) isn't ugly.",
+    "version": "0.0.2",
+    "publisher": "br3adina7or",
+    "repository": {
+        "url": "https://github.com/Breadinator/high-contrast-dark-pro"
+    },
+    "license": "Unlicense",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "High Contrast Dark Pro",
+                "uiTheme": "hc-black",
+                "path": "./themes/High Contrast Dark Pro-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "vsce package -o \"./builds/\""
+    },
+    "keywords": [
+        "high-contrast",
+        "dark",
+        "dark-mode",
+        "rust",
+        "rustlang",
+        "go",
+        "golang"
+    ]
+}
