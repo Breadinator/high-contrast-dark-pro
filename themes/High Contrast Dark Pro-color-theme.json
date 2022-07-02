@@ -65,6 +65,10 @@
 		"symbolIcon.methodForeground": "#FFEC8B",
 		"symbolIcon.objectForeground": "#F1644B", // impl block
 		"symbolIcon.typeParameterForeground": "#4EC9B0",
+		// Scrollbar
+		"scrollbarSlider.background": "#ffffff69",
+		"scrollbarSlider.hoverBackground": "#fff",
+		"scrollbarSlider.activeBackground": "#fff",
 	},
 	"semanticTokenColors": {
 		"method.consuming": {
