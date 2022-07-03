@@ -69,6 +69,10 @@
 		"scrollbarSlider.background": "#ffffff69",
 		"scrollbarSlider.hoverBackground": "#fff",
 		"scrollbarSlider.activeBackground": "#fff",
+		// Jupyter
+		"notebook.cellBorderColor": "#ffffff69",
+		"notebook.focusedEditorBorder": "#fff",
+		"notebook.outputContainerBorderColor": "#ffffff69"
 	},
 	"semanticTokenColors": {
 		"method.consuming": {
