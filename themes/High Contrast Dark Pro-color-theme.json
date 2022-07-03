@@ -89,6 +89,63 @@
 		},
 	},
 	"tokenColors": [
+		// Regexp
+		{
+			"scope": [],
+			"settings": {
+				"foreground": "#fff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.operator.quantifier.regexp",
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"scope": [
+				"support.other.escape.special.regexp",
+				"constant.character.escape.regexp"
+			],
+			"settings": {
+				"foreground": "#b46695",
+			}
+		},
+		{
+			"scope": "meta.character.set.regexp",
+			"settings": {
+				"foreground": "#d16969",
+			}
+		},
+		// Python
+		{
+			// Decorators
+			"scope": [
+				"meta.function.decorator.python",
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#fff"
+			}
+		},
+		// Other
+		{
+			"scope": [
+				"meta.attribute",
+				"meta.item-access"
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"scope": "meta.function-call",
+			"settings": {
+				"foreground": "#FFEC8B"
+			}
+		},
 		{
 			"scope": [
 				"mutable",
@@ -117,7 +174,10 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"string.quoted.docstring"
+			],
 			"settings": {
 				"foreground": "#9fdd83"
 			}
@@ -137,12 +197,6 @@
 			],
 			"settings": {
 				"foreground": "#b5cea8"
-			}
-		},
-		{
-			"scope": "constant.regexp",
-			"settings": {
-				"foreground": "#b46695"
 			}
 		},
 		{
@@ -297,12 +351,6 @@
 			}
 		},
 		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#d16969"
-			}
-		},
-		{
 			"name": "JavaScript string interpolation ${}",
 			"scope": [
 				"punctuation.definition.template-expression.begin.js",
@@ -443,7 +491,8 @@
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
-				"support.variable"
+				"support.variable",
+				"entity.name.variable"
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
