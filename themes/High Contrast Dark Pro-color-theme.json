@@ -2,8 +2,39 @@
 	"name": "High Contrast Dark Pro",
 	"semanticHighlighting": true,
 	"colors": {
+		// General
 		"editor.background": "#000",
 		"editor.foreground": "#fff",
+		"textLink.foreground": "#569cd6",
+		"textLink.activeForeground": "#569cd6",
+		"editor.selectionForeground": "#000",
+		// Remove borders (unless covered by another section)
+		"tab.border": "#000",
+		"sideBar.border": "#000",
+		"panel.border": "#000",
+		"titleBar.border": "#000",
+		"focusBorder": "#000",
+		"window.activeBorder": "#000",
+		"contrastBorder": "#00000000",
+		// Set borders to white (unless covered by another section)
+		"button.border": "#fff",
+		"input.border": "#fff",
+		"dropdown.border": "#fff",
+		"editor.lineHighlightBorder": "#fff",
+		"editor.selectionBackground": "#fff",
+		"editor.findMatchHighlightBorder": "#fff", // another way to show would be nice
+		// Activity bar
+		"activityBar.background": "#000",
+		"activityBar.foreground": "#fff",
+		"activityBar.activeBorder": "#fff",
+		"activityBar.inactiveForeground": "#ffffff69",
+		"activityBar.activeFocusBorder": "#fff",
+		"activityBar.border": "#000",
+		// Badges
+		"activityBarBadge.background": "#fff",
+		"activityBarBadge.foreground": "#000",
+		"badge.background": "#fff",
+		"badge.foreground": "#000",
 		// Inlay type inferences
 		"editorInlayHint.background": "#000",
 		"editorInlayHint.foreground": "#ffffffc0",
@@ -12,23 +43,6 @@
 		"tab.activeBorder": "#fff",
 		"sideBySideEditor.horizontalBorder": "#fff",
 		"sideBySideEditor.verticalBorder": "#fff",
-		// Remove borders
-		"activityBar.border": "#000",
-		"tab.border": "#000",
-		"menu.border": "#000",
-		"sideBar.border": "#000",
-		"panel.border": "#000",
-		"statusBar.border": "#000",
-		"titleBar.border": "#000",
-		"focusBorder": "#000",
-		"button.border": "#fff",
-		"input.border": "#fff",
-		"window.activeBorder": "#000",
-		"dropdown.border": "#fff",
-		"editor.lineHighlightBorder": "#fff",
-		"contrastBorder": "#00000000",
-		"editor.selectionForeground": "#000",
-		"editor.selectionBackground": "#fff",
 		// Errors
 		"editorWarning.background": "#ffb51669",
 		"editorError.background": "#ff000069",
@@ -42,18 +56,24 @@
 		"statusBar.foreground": "#fff",
 		"statusBar.debuggingBackground": "#fff",
 		"statusBar.debuggingForeground": "#000",
+		"statusBar.border": "#000",
 		// Menu bar
-		"menubar.selectionBorder": "#fff",
+		"menubar.selectionForeground": "#000",
+		"menubar.selectionBackground": "#fff",
+		"menu.border": "#000",
 		// Notifications center
 		"notificationCenter.border": "#fff",
 		"notificationCenterHeader.background": "#000",
 		"notificationCenterHeader.foreground": "#fff",
+		// Notifications
+		//"notifications.background": "#ff0000"
 		// Quick picker
 		"quickInput.background": "#000",
 		"quickInput.foreground": "#fff",
 		"quickInputList.focusBackground": "#fff",
 		"quickInputList.focusForeground": "#000",
 		"quickInputList.focusIconForeground": "#000",
+		"pickerGroup.border": "#fff",
 		// Symbol icons (outline, breadcrumbs, suggest)
 		"symbolIcon.classForeground": "#4EC9B0",
 		"symbolIcon.structForeground": "#4EC9B0",
@@ -69,10 +89,39 @@
 		"scrollbarSlider.background": "#ffffff69",
 		"scrollbarSlider.hoverBackground": "#fff",
 		"scrollbarSlider.activeBackground": "#fff",
+		// Settings
+		"keybindingTable.rowsBackground": "#000",
+		"keybindingLabel.bottomBorder": "#000",
+		"list.activeSelectionBackground": "#fff",
+		"list.activeSelectionForeground": "#000",
+		"list.highlightForeground": "#fff", // in keybindings when searching will update match
+		"list.hoverForeground": "#000",
+		"list.hoverBackground": "#fff",
+		// Keybinding label colors
+		"keybindingLabel.foreground": "#000",
+		"keybindingLabel.background": "#fff",
+		"keybindingLabel.border": "#fff",
+		// Terminal
+		"terminal.findMatchBackground": "#fff",
+		"terminal.findMatchHighlightBorder": "#ffffff69",
+		"terminal.selectionForeground": "#000",
+		"terminal.selectionBackground": "#fff",
+		"terminal.foreground": "#fff",
+		"terminal.background": "#000",
+		// Widgets
+		"editorWidget.border": "#fff",
+		"editorWidget.background": "#000",
+		"editorHoverWidget.background": "#000",
+		"editorHoverWidget.foreground": "#fff",
+		"editorHoverWidget.border": "#fff",
 		// Jupyter
 		"notebook.cellBorderColor": "#ffffff69",
 		"notebook.focusedEditorBorder": "#fff",
-		"notebook.outputContainerBorderColor": "#ffffff69"
+		"notebook.outputContainerBorderColor": "#ffffff69",
+		// Rust
+		// TODO test this
+		//"rust_analyzer.syntaxTreeBorder": "#fff"
+		// Other
 	},
 	"semanticTokenColors": {
 		"method.consuming": {
