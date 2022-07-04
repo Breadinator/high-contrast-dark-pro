@@ -9,12 +9,12 @@
 		"textLink.activeForeground": "#569cd6",
 		"editor.selectionForeground": "#000",
 		// Remove borders (unless covered by another section)
-		"tab.border": "#000",
-		"sideBar.border": "#000",
-		"panel.border": "#000",
-		"titleBar.border": "#000",
-		"focusBorder": "#000",
-		"window.activeBorder": "#000",
+		"tab.border": "#00000000",
+		"sideBar.border": "#00000000",
+		"panel.border": "#00000000",
+		"titleBar.border": "#00000000",
+		"focusBorder": "#00000000",
+		"window.activeBorder": "#00000000",
 		"contrastBorder": "#00000000",
 		// Set borders to white (unless covered by another section)
 		"button.border": "#fff",
@@ -122,6 +122,8 @@
 		// TODO test this
 		//"rust_analyzer.syntaxTreeBorder": "#fff"
 		// Other
+		"list.activeSelectionIconForeground": "#000",
+		"list.focusHighlightForeground": "#000",
 	},
 	"semanticTokenColors": {
 		"method.consuming": {
